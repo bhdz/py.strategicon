@@ -1,0 +1,11 @@
+#!/bin/cat
+!/usr/bin/env charm
+
+Person? Name; Body; Location; Deeds; Actions; *thoughts? *words? *resources?
+
+Number.
+String.
+
+Text? String; String; *Words?
+
+Words? String...

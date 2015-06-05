@@ -1,0 +1,39 @@
+Grouping? (A B)
+
+Digit? (|: 1 2 3 4 5 6 7 8 9 0)
+Number? Digit | (Digit; Number)
+
+Text? Word | (Word; Word)
+
+Car         `Beatle
+Number      # 1343
+Hello   ``Hello world
+Lucky   #13
+Name? First; Middle; Last; Nickname
+Person? Name; Age; Work? Yes | No;
+
+
+Person? Name; Age; Work? `Yes | `No =
+
+Hello world? String = `Hello {name} Have a {treat}
+Count to? Number = 1
+My name? Name? First; Middle; Last = `Joe; `Random; `Hacker
+
+My shopping bag? 
+    Fruits? `Banana; `Oranges; ``Black berries; ``Straw berries 
+
+Print? Format; Arguments; Context
+
+Print: Hello world? name = My name: First treat
+
+Print: *hello world 
+
+Hello? name = Name: First; treat = Banana
+
+
+
+
+Letter?
+    Envelope? Stamp; Label; Parchment
+    Message    
+   
