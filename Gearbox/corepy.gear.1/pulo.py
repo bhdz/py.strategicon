@@ -7,6 +7,11 @@
 
 # This .is: a Registry/Catalog for objects! Keep an Eye on them objects, the 
 #  hierarchical way. Fun little Borgish concept 
+# WRAAAAAAAAAAPPPPINNNNNNNG IS REQUIRED FOR THE BORG TO ENLIVEN LARGE
+#
+#  &*enbolden Eye, Node, Node.Wrap! (^^)) Remembered! * cheeky! ... eh... ** smi^2le .not. present!
+#  &*enbolden~
+# 
 class Eye(object):
     __state = {}
 
