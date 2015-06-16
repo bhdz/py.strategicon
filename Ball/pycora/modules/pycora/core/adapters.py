@@ -47,7 +47,7 @@ class Details(object):
             r = value
         return r
 
-def test_Details():
+def check_Details():
     import os, sys
     h = Details()
     h.test = 1.0
@@ -65,7 +65,7 @@ class Adapt(Details):
     def __init__(self, adaptee, to, *args, **kw):
         self.__trunk = {}
 
-def test_Adapt():
+def check_Adapt():
     class A(object):
         def __init__(self, *a, **k):
             pass
@@ -105,7 +105,7 @@ def test_Adapt():
     b3 = B2() # Must produce an adapted instance. 
     b3.foo("Joe3", 3)
     b3.bar("blabla")
-#test_Adapter
+#check_Adapter
 ###
 
 
