@@ -1,3 +1,6 @@
 Gearbox::has::
 Filenaming::
-All :filenames: should contain {something}.gear.{numbers}
+All :filenames: should contain {something}.gear.{numbers}::
+pulo.py|puley.py)) This .is. a collection of recipes for certain patterns of coder's activity. Contains echo, mix, Labeled(dict) and other's things.
+okcrawler.py|okcrawli/*)) This .is. a collection of Crawling Techniques with a specific purpose of=gathering if=meta-data and=data.dump.local. This .is. -plan's line. make'r line.
+
