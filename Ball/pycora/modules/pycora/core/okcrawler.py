@@ -149,7 +149,8 @@ def gather_links(links, **context):
 # Upon :startup: read_out >> config_cat
 #
 def config_cat(config={}, **context):
-    readout_file(
+    context2 = context.copy()
+    contents = readout_file("./config.cat", **context2)
 #
 # Ha. Ha. MAin functionality... for now this is a SINGLE module, NO PACKAGING. LOL.
 #
