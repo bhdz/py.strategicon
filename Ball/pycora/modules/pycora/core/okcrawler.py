@@ -207,5 +207,5 @@ class Mk(object):
         'os_read_in': None,
     }
     def __init__(self, first, *arguments, **context):
-        # WE certainly DON'T need no stinkin' Sniggletton!!
+        # WE certainly DON'T need no stinkin' Singleton!!
         self.__dict__ = Mk.__state_funcs
